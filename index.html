@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Two Girls One Mix | Cocktail Event Service</title>
+  <meta name="description" content="Two Girls One Mix brings pretty drinks, strong pours, and unmatched energy to private parties, pop-ups, girls nights, and special events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Two Girls One Mix home">
+      <div class="brand-mark">🍸</div>
+      <div>
+        <strong>Two Girls One Mix</strong>
+        <span>Every sip hits different</span>
+      </div>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#packages">Packages</a>
+      <a href="#menu">Drink Menu</a>
+      <a href="#events">Events</a>
+      <a href="#booking" class="nav-cta">Book Us</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="glow glow-pink"></div>
+      <div class="glow glow-gold"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">Pretty drinks • Strong pours • Unmatched energy</p>
+        <h1>Cocktails that turn your event into a whole vibe.</h1>
+        <p class="hero-text">
+          Two Girls One Mix brings bold cocktails, beautiful presentation, and high-energy service for private parties, girls nights, pop-ups, birthdays, weddings, and celebrations.
+        </p>
+        <div class="hero-actions">
+          <a href="#booking" class="button primary">Request a Quote</a>
+          <a href="#packages" class="button secondary">View Packages</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>Custom</strong><span>Menus</span></div>
+          <div><strong>Photo</strong><span>Ready</span></div>
+          <div><strong>Event</strong><span>Energy</span></div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img src="assets/two-girls-one-mix-art.png" alt="Two Girls One Mix brand artwork" />
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Brand highlights">
+      <div>
+        <span>🍹 Pretty Drinks</span>
+        <span>🔥 Strong Pours</span>
+        <span>💅 Unmatched Energy</span>
+        <span>🥂 Private Events</span>
+        <span>✨ Custom Menus</span>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">Meet the mix</p>
+        <h2>Best friends bringing the drinks, the flavor, and the whole mood.</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="feature-card">
+          <div class="icon">💖</div>
+          <h3>Bestie-owned</h3>
+          <p>Built by two best friends turning a love for cocktails into a full event experience.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon">🍸</div>
+          <h3>Signature sips</h3>
+          <p>From sweet and pretty to bold and strong, every drink is made to match your crowd.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon">📸</div>
+          <h3>Content-ready</h3>
+          <p>Beautiful drink setups, garnish details, and photo-worthy moments for social media.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section packages" id="packages">
+      <div class="section-heading">
+        <p class="eyebrow">Packages</p>
+        <h2>Pick your pour.</h2>
+        <p>Pricing can be adjusted based on location, guest count, hours, alcohol rules, and event needs.</p>
+      </div>
+
+      <div class="package-grid">
+        <article class="price-card">
+          <div class="badge">Starter</div>
+          <h3>Pretty Pour</h3>
+          <p class="price">Starting at $350</p>
+          <p>Perfect for birthdays, girls nights, small parties, and intimate celebrations.</p>
+          <ul>
+            <li>2 signature drink options</li>
+            <li>Up to 3 hours of service</li>
+            <li>Basic garnish setup</li>
+            <li>Shopping list provided</li>
+            <li>Mocktail option available</li>
+          </ul>
+          <a href="#booking" class="button card-button">Ask about Pretty Pour</a>
+        </article>
+
+        <article class="price-card featured">
+          <div class="badge">Most Popular</div>
+          <h3>Strong Pour</h3>
+          <p class="price">Starting at $650</p>
+          <p>For events that need more cocktails, more setup, and more Two Girls One Mix energy.</p>
+          <ul>
+            <li>3–4 signature drink options</li>
+            <li>Up to 5 hours of service</li>
+            <li>Custom printed drink menu</li>
+            <li>Themed garnish setup</li>
+            <li>Batch cocktail option</li>
+          </ul>
+          <a href="#booking" class="button card-button">Ask about Strong Pour</a>
+        </article>
+
+        <article class="price-card">
+          <div class="badge">VIP</div>
+          <h3>One Mix Experience</h3>
+          <p class="price">Custom Quote</p>
+          <p>A full-service cocktail experience for weddings, brand events, pop-ups, and VIP parties.</p>
+          <ul>
+            <li>Custom theme and menu</li>
+            <li>Premium presentation</li>
+            <li>Content-friendly drink station</li>
+            <li>Event coordination support</li>
+            <li>Add-ons available</li>
+          </ul>
+          <a href="#booking" class="button card-button">Build my experience</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section drink-menu" id="menu">
+      <div class="menu-copy">
+        <p class="eyebrow">Signature Sips</p>
+        <h2>Pretty enough for the photos. Strong enough for the stories.</h2>
+        <p>Choose from house favorites or request a custom cocktail menu based on your theme, colors, favorite spirits, and guest vibe.</p>
+      </div>
+
+      <div class="drink-list">
+        <div><span>Pink Diamond Margarita</span><b>Tequila • Lime • Sweet Pink Mix</b></div>
+        <div><span>Golden Girl Spritz</span><b>Bubbly • Citrus • Gold Sugar Rim</b></div>
+        <div><span>Pretty & Dangerous Punch</span><b>Rum • Fruit • Strong Pour</b></div>
+        <div><span>The Bestie Martini</span><b>Vodka • Berry • Glam Garnish</b></div>
+        <div><span>Rum Kiss Refresher</span><b>Rum • Mint • Tropical Splash</b></div>
+        <div><span>Mocktail Glow-Up</span><b>Zero Proof • Full Vibe</b></div>
+      </div>
+    </section>
+
+    <section class="section events" id="events">
+      <div class="section-heading">
+        <p class="eyebrow">Perfect for</p>
+        <h2>Events that deserve better than boring drinks.</h2>
+      </div>
+
+      <div class="event-grid">
+        <div>🎂 Birthdays</div>
+        <div>👰 Weddings</div>
+        <div>💃 Girls Nights</div>
+        <div>🏡 Private Parties</div>
+        <div>🛍️ Pop-Ups</div>
+        <div>📸 Brand Events</div>
+        <div>🥂 Bridal Showers</div>
+        <div>🎓 Graduations</div>
+      </div>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="booking-copy">
+        <p class="eyebrow">Book Two Girls One Mix</p>
+        <h2>Ready to make your party hit different?</h2>
+        <p>
+          Send your event date, guest count, location, theme, and package interest. We’ll follow up with availability and a custom quote.
+        </p>
+
+        <div class="contact-list">
+          <a href="https://instagram.com/twogirlsonemix" target="_blank" rel="noreferrer">Instagram: @twogirlsonemix</a>
+          <a href="mailto:hello@twogirlsonemix.com">Email: hello@twogirlsonemix.com</a>
+          <a href="tel:5555555555">Phone: (555) 555-5555</a>
+        </div>
+      </div>
+
+      <form class="booking-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <label>
+          Name
+          <input name="name" type="text" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email or phone
+          <input name="contact" type="text" placeholder="Best way to reach you" required />
+        </label>
+
+        <label>
+          Event date
+          <input name="event_date" type="text" placeholder="MM/DD/YYYY" />
+        </label>
+
+        <label>
+          Guest count
+          <input name="guest_count" type="text" placeholder="About how many guests?" />
+        </label>
+
+        <label>
+          Event details
+          <textarea name="message" placeholder="Tell us the location, theme, package, and drink vibe..." required></textarea>
+        </label>
+
+        <button class="button primary" type="submit">Request Quote</button>
+        <p class="form-note">Replace the Formspree link with your real form endpoint before launch.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Two Girls One Mix</strong>
+      <span>Every sip hits different.</span>
+    </div>
+    <p>© 2026 Two Girls One Mix. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
